@@ -1,7 +1,5 @@
 # ___My CV___
 
-![myself](\img\0057.jpg)
-
 | **Personal information** | **:)**                          |
 |--------------------------|---------------------------------|
 | **Name**                 |  Ilya Hancharuk                 |
