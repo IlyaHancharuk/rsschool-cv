@@ -1,12 +1,14 @@
 # ___My CV___
 
+![myself](\img\0057.jpg)
+
 | **Personal information** | **:)**                          |
 |--------------------------|---------------------------------|
 | **Name**                 |  Ilya Hancharuk                 |
 | **Phone number**         | 80291234567                     |
 | **Discord**              | IlyaHancharuk#8710              |
 
-## **About me**
+## **About myself**
 
 I am a fitness trainer. I used to work as a chemist-engineer. I want to learn OY and work as a front-end developer
 
