@@ -9,6 +9,7 @@
         font-weight: 500;
         line-height: 1.5;
         color: #442b06;
+        background-color: rgb(230, 223, 130);
         min-height: 100vh;
         display: flex;
         flex-direction: column;
