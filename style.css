@@ -18,7 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 20px 140px;
+  padding: 20px 220px;
 }
 
 a {
@@ -41,9 +41,12 @@ h2 {
   letter-spacing: 5px;
   color: #422a06;
   border-bottom: 1px solid #422a06;
+  margin-bottom: 5px;
 }
 
-
+a {
+  color: #442b06;
+}
 
 .container {
   max-width: 1440px;
@@ -62,7 +65,7 @@ h2 {
 }
 
 .section#Contacts {
-  width: 45%;
+  max-width: 30%;
 }
 
 .menu {
@@ -70,6 +73,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  border-bottom: 1px solid #442b06;
 }
 
 .menu-item {
@@ -89,28 +93,46 @@ h2 {
   transition: .4s;
 }
 
-
-
 .link:hover, .menu-item:hover {
-  background-color:rgb(124, 23, 23);
+  background-color:gray;
   color: #803715;
 }
 
-     
 .main-container {
   display: flex;
   flex-direction: row;
   gap: 30px;
   padding: 10px;
+  flex-wrap: nowrap;
 }
 
-
-
 .section {
-  width: 100%;
+  max-width: 100%;
   padding-bottom: 30px;      
 }
 
+.section#Projects {
+  flex-grow: 2;
+}
+
+.project-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.travel, .momentum {
+  width: 400px;
+  background-size: contain;
+}
+
+.travel img:hover, .momentum img:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
 
 .footer-container {
   display: flex;
@@ -120,8 +142,10 @@ h2 {
 
 
 @media (max-width: 768px) {
-  .section {
-    width: 100%;
+  
+
+  .main-container {
+    flex-wrap: wrap;
   }
 }
 
