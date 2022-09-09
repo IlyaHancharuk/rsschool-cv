@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="icon" href="assets/3483089.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu-item"> <a href="#Contacts" class="menu-link">Contacts</a> </li>
+                    <li class="menu-item"> <a href="#Summary" class="menu-link">Summary</a> </li>
+                    <li class="menu-item"> <a href="#Education" class="menu-link">Education</a> </li>
+                    <li class="menu-item"> <a href="#Language" class="menu-link">Language</a> </li>
+                    <li class="menu-item"> <a href="#Skills" class="menu-link">Skills</a> </li>
+                    <li class="menu-item"> <a href="#Code" class="menu-link">Code</a> </li>
+                    <li class="menu-item"> <a href="#Projects" class="menu-link">Projects</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+            <div class="contact-container">
+                <section class="section" id="Contacts">
+                    <h1>Ilya Hancharuk</h1>
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Minsk, Belarus</li>
+                        <li>Phone: <a class="link" href="tel:+375292581709">+375292581709</a></li>
+                        <li>Email: <a class="link" href="mailto:innot707@gmail.com">innot707@gmail.com</a></li>
+                        <li>Telegram <a class="link" href="https://t.me/PedaGoooG" target="_blank">@PedaGoooG</a></li>
+                        <li>Discord: <a class="link" href="https://discordapp.com/users/IlyaHancharuk#8710">IlyaHancharuk#8710</a></li>
+                    </ul>
+                </section>
+                <img src="./assets/0057.JPG" alt="avatar" height="378" width="302">
+            </div>
+            <div class="main-container">
+                <section class="section" id="Summary">
+                    <h2>Summary</h2>
+                        <p>
+                            I am a fitness trainer. I used to work as a chemist-engineer. I want to learn JS and work as a front-end developer.
+                        </p>
+                </section>
+                <section class="section" id="Education">
+                    <h2>Education</h2>
+                    <ul>
+                        <li>Faculty of Chemistry, BSU, 2012-2017, chemist, teacher of chemistry</li>
+                        <li>Training center "Fitness education", 2021, gym instructor</li>
+                    </ul>
+                </section>
+                <section class="section" id="Language">
+                    <h2>Language</h2>
+                    <ul>
+                        <li>Russian</li>
+                        <li>Belarussian</li>
+                        <li>English A1</li>
+                    </ul>
+                </section>
+                <section class="section" id="Skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>Git basic</li>
+                        <li>HTML basic</li>
+                        <li>CSS basic</li>
+                        <li>JS basic</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main-container">
+                <section class="section" id="Code">
+                    <h2>Code example</h2>
+                    <pre class="code-example"><span class="code-example-function"><span class="code-example-keyword">function</span> <span class="code-example-title">toWeirdCase</span>(<span class="code-example-params">string</span>)</span>{
+  <span class="code-example-keyword">let</span> arr = string.split(<span class="code-example-string">' '</span>).map((element) =&gt; {
+    <span class="code-example-keyword">let</span> res = <span class="code-example-string">''</span>
+    <span class="code-example-keyword">for</span> (<span class="code-example-keyword">let</span> i = <span class="code-example-number">0</span>; i &lt; element.length; i++) {
+      <span class="code-example-keyword">if</span> (i % <span class="code-example-number">2</span> === <span class="code-example-number">0</span>) {
+        res += element[i].toUpperCase()
+      } <span class="code-example-keyword">else</span> {
+        res += element[i]
+      }
+    }
+    <span class="code-example-keyword">return</span> res
+  })
+  <span class="code-example-keyword">return</span> arr.join(<span class="code-example-string">' '</span>)
+}</pre>
+                </section>
+                <div class="section" id="Projects">
+                    <h2>Projects</h2>
+                    <div class="project-container">
+                        <div class="travel">
+                            <a target="_blank" href="https://rolling-scopes-school.github.io/ilyahancharuk-JSFEPRESCHOOL2022Q2/travel/">Travel
+                                <img src="./assets/travel.png" alt="travel" width="400px" >
+                            </a>
+                        </div>
+                        <div class="momentum">
+                            <a target="_blank" href="https://rolling-scopes-school.github.io/ilyahancharuk-JSFEPRESCHOOL2022Q2/momentum/">Momentum
+                                <img src="./assets/momentum.png" alt="momentum" width="400px" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-container">
+             <a href="https://rs.school/js/">
+                <img src="https://rs.school/images/rs_school_js.svg" alt="logo" height="75" width="150">
+            </a>
+            <div>
+                <time datetime="2022-06-14">Create in 2022 by</time>
+                <a class="link" href="https://github.com/IlyaHancharuk">IlyaHancharuk</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
