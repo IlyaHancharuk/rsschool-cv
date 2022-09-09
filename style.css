@@ -140,6 +140,30 @@ a {
   justify-content: space-between;
 }
 
+.code-example {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: rgb(34, 34, 34);
+  color: rgb(170, 170, 170);
+}
+.code-example-function
+.code-example-keyword {
+  color: rgb(102, 68, 170);
+}
+.code-example-number {
+  color: rgb(0, 204, 102);
+}
+.code-example-params {
+  color: rgb(112, 105, 105);
+}
+.code-example-string {
+  color: rgb(255, 204, 51);
+}
+.code-example-title {
+  color: rgb(187, 17, 102);
+}
+
 
 @media (max-width: 768px) {
   
