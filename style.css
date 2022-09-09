@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #442b06;
+  background-color: rgb(204, 190, 190);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 220px;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #422a06;
+  border-bottom: 1px solid #422a06;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #442b06;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: rgb(204, 190, 190);
+  margin-bottom: 50px;
+  padding: 10px;
+}
+
+.section#Contacts {
+  max-width: 30%;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #442b06;
+}
+
+.menu-item {
+  padding: 0 20px;
+  list-style-type: none;
+  line-height: 50px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.menu-link {
+  color: #5c500de1;
+  font-weight: 800;
+  transition: .4s;
+}
+
+.link:hover, .menu-item:hover {
+  background-color:gray;
+  color: #803715;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 10px;
+  flex-wrap: nowrap;
+}
+
+.section {
+  max-width: 100%;
+  padding-bottom: 30px;      
+}
+
+.section#Projects {
+  flex-grow: 2;
+}
+
+.project-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+
+.travel, .momentum {
+  width: 400px;
+  background-size: contain;
+}
+
+.travel img:hover, .momentum img:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+.footer-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.code-example {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: rgb(34, 34, 34);
+  color: rgb(170, 170, 170);
+}
+.code-example-function
+.code-example-keyword {
+  color: rgb(102, 68, 170);
+}
+.code-example-number {
+  color: rgb(0, 204, 102);
+}
+.code-example-params {
+  color: rgb(112, 105, 105);
+}
+.code-example-string {
+  color: rgb(255, 204, 51);
+}
+.code-example-title {
+  color: rgb(187, 17, 102);
+}
+
+
+@media (max-width: 768px) {
+  
+
+  .main-container {
+    flex-wrap: wrap;
+  }
+}
+
+      
